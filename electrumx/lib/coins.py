@@ -363,8 +363,8 @@ class BitcoinIL(BitcoinMixin, Coin):
     WIF_BYTE = bytes.fromhex("ef")
     ENCODE_CHECK = Base58.encode_check
     DECODE_CHECK = Base58.decode_check
-    GENESIS_HASH = ('000001780db928ffd1885fee6d49f50f'
-                    '21d40ac10d32c73a6e44d7db1cc62169')
+    GENESIS_HASH = ('00000542e911899b1a0777c88d7f8eba'
+                    '4bd2ec0e8d4a691b0fc3e6d07f2af4fd')
     TX_COUNT = 6709
     TX_COUNT_HEIGHT = 6770
     TX_PER_BLOCK = 1
@@ -392,8 +392,8 @@ class BitcoinILMainnet(BitcoinMixin, Coin):
     WIF_BYTE = bytes.fromhex("80")
     ENCODE_CHECK = Base58.encode_check
     DECODE_CHECK = Base58.decode_check
-    GENESIS_HASH = ('00000542e911899b1a0777c88d7f8eba'
-                    '4bd2ec0e8d4a691b0fc3e6d07f2af4fd')
+    GENESIS_HASH = ('00000d53b2d551fa1638333b80ca694f'
+                    'bfa021643d00f2e237f4021652cc61ea')
     TX_COUNT = 6709
     TX_COUNT_HEIGHT = 6770
     TX_PER_BLOCK = 1
