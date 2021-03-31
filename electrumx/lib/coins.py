@@ -388,12 +388,12 @@ class BitcoinILMainnet(BitcoinMixin, Coin):
     P2SH_VERBYTES = [bytes.fromhex("05")]
     XPUB_VERBYTES = bytes.fromhex("0488b21e")
     XPRV_VERBYTES = bytes.fromhex("0488ade4")
-    RPC_PORT = 18223
+    RPC_PORT = 8223
     WIF_BYTE = bytes.fromhex("80")
     ENCODE_CHECK = Base58.encode_check
     DECODE_CHECK = Base58.decode_check
-    GENESIS_HASH = ('0000039c317f710f4b3a52fdf996ea59'
-                    '93f2f36775b3a5661b45f2e17daa8f80')
+    GENESIS_HASH = ('00000542e911899b1a0777c88d7f8eba'
+                    '4bd2ec0e8d4a691b0fc3e6d07f2af4fd')
     TX_COUNT = 6709
     TX_COUNT_HEIGHT = 6770
     TX_PER_BLOCK = 1
