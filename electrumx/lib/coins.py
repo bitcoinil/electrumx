@@ -385,7 +385,7 @@ class BitcoinILMainnet(BitcoinMixin, Coin):
     NET = "mainnet"    
     DESERIALIZER = lib_tx.DeserializerSegWit    
     P2PKH_VERBYTE = bytes.fromhex("00")
-    P2SH_VERBYTES = [bytes.fromhex("05")]
+    P2SH_VERBYTES = [bytes.fromhex("84")]
     XPUB_VERBYTES = bytes.fromhex("0488b21e")
     XPRV_VERBYTES = bytes.fromhex("0488ade4")
     RPC_PORT = 8223
